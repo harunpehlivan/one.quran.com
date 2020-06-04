@@ -32,7 +32,7 @@ gem 'jbuilder', '~> 2.5'
 # dotenv for env variables
 gem 'dotenv-rails'
 
-gem 'devise_token_auth'
+gem 'devise_token_auth', '>= 1.1.4'
 
 # Facebook
 gem 'omniauth-facebook'
