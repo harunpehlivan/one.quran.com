@@ -30,12 +30,12 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 # dotenv for env variables
-gem 'dotenv-rails'
+gem 'dotenv-rails', '>= 2.1.1'
 
-gem 'devise_token_auth'
+gem 'devise_token_auth', '>= 0.1.39'
 
 # Facebook
-gem 'omniauth-facebook'
+gem 'omniauth-facebook', '>= 4.0.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -43,15 +43,15 @@ group :development, :test do
   gem 'pry-byebug'
   gem 'pry-rails'
 
-  gem 'rspec-rails'
-  gem 'factory_girl_rails'
+  gem 'rspec-rails', '>= 3.5.1'
+  gem 'factory_girl_rails', '>= 4.5.0'
   gem 'rubocop'
   gem 'database_cleaner'
 end
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
-  gem 'web-console'
+  gem 'web-console', '>= 3.3.1'
   gem 'listen', '~> 3.0.5'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
