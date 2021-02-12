@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
+gem 'rails', '~> 6.0.3', '>= 6.0.3.5'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.18'
 # Use Puma as the app server
@@ -32,7 +32,7 @@ gem 'jbuilder', '~> 2.5'
 # dotenv for env variables
 gem 'dotenv-rails'
 
-gem 'devise_token_auth'
+gem 'devise_token_auth', '>= 1.1.1'
 
 # Facebook
 gem 'omniauth-facebook'
